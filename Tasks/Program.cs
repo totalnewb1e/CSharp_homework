@@ -51,3 +51,15 @@ else
 */
 
 // Zada4a 8.
+
+/*
+Console.Write("Enter ur num: ");
+int num = Convert.ToInt32(Console.ReadLine());
+int current = 1;
+while(current <= num)
+{
+    if(current %2 == 0)                  // Не совсем понял правильно синтаксически написал, вышло с первого раза, но вроде программа работает без ошибок))
+    Console.Write(current + " ");
+    current++;      
+}
+*/
