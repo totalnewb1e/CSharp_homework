@@ -12,6 +12,9 @@ if(num1 > num2)
 }
 else
 {
+    if(num1 == num2)
+    Console.WriteLine($" {num1} equal {num2} ");
+    else
     Console.WriteLine($"{num2} is bigger then {num1} ");
 }
 */
