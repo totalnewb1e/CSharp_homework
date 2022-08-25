@@ -66,3 +66,107 @@ while(current <= num)
     current++;      
 }
 */
+
+// Zada4a 10
+
+//  Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+
+// void SecondDigitOf3digitNum(int num)
+// {
+//     if (num < 100 || num > 999)
+//         Console.WriteLine(" entered value is not three-digit number ");
+//     else
+//     {
+//         int ed = num / 10;
+//         int dec = ed % 10;
+//         Console.WriteLine($" second digit is {dec} ");
+//     }
+// }
+// Console.Write("Enter three-digit number: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// SecondDigitOf3digitNum(number);
+
+
+// Zada4a 13
+
+// Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+
+// void ThirdDigitOfAnyNum(int answer)
+// {
+//     int num = answer;
+//     if (answer >= 100)
+//     {
+//         while(answer > 1000)
+//         {
+//             answer /= 10;
+//         }
+//         answer %= 10;
+//         Console.WriteLine($" 3rd digit of {num} is {answer} ");
+//     }
+//     else
+//     {
+//         Console.WriteLine($" {num} do not've a 3rd digit ");
+//     }
+// }
+
+// Console.Write("Enter positive value: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// ThirdDigitOfAnyNum(number);
+
+// Zada4a 15
+
+// Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+
+// void DaysOfTheWeek(int weekday)
+// {
+//     if(weekday < 0 || weekday >= 8 )
+//     {
+//         Console.WriteLine($" please enter value equal the day of the week from 1 to 7 ");
+//     }
+//     if(weekday <= 5)
+//     {
+//         Console.WriteLine($" this's a weekday ");
+//     }
+//     else
+//     {
+//         Console.WriteLine($" this's a weekend ");
+//     }
+// }
+
+
+// Console.Write("Enter day of the week from 1 to 7: ");
+// int dayOftheWeek = Convert.ToInt32(Console.ReadLine());
+
+// DaysOfTheWeek(dayOftheWeek);
+
+// Zada4a 15 ewe raz
+
+// void DaysOfTheWeek(int weekday)
+// {
+//     if(weekday < 1 || weekday >= 8 )
+//     {
+//         Console.WriteLine($" please enter value equal the day of the week from 1 to 7 ");
+//     }
+//     if(weekday == 1)
+//         Console.WriteLine($" this's a monday ");
+//     if(weekday == 2)
+//         Console.WriteLine($" this's a tuesday ");
+//     if(weekday == 3)
+//         Console.WriteLine($" this's a wednesday ");
+//     if(weekday == 4)
+//         Console.WriteLine($" this's a thusday ");
+//     if(weekday == 5)
+//         Console.WriteLine($" this's a friday ");
+//     if(weekday == 6)
+//         Console.WriteLine($" this's a saturady ");
+//     if(weekday == 7)
+//         Console.WriteLine($" this's a sunday ");
+// }
+
+
+// Console.Write("Enter day of the week from 1 to 7: ");
+// int dayOftheWeek = Convert.ToInt32(Console.ReadLine());
+
+// DaysOfTheWeek(dayOftheWeek);
