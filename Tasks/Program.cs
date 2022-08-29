@@ -170,3 +170,76 @@ while(current <= num)
 // int dayOftheWeek = Convert.ToInt32(Console.ReadLine());
 
 // DaysOfTheWeek(dayOftheWeek);
+
+// Zada4a 19
+
+// Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+
+// void CheckPalindrome(int number)
+// {
+//     int n5 = number % 10;
+//     int n4 = number / 10 % 10;
+//     int n2 = number / 1000 % 10;
+//     int n1 = number / 10000;
+
+//     if(n1 == n5 && n2 == n4)
+//     {
+//         Console.WriteLine($"{number} is polindrome");
+//     }
+//     else
+//     {
+//         Console.WriteLine($"{number} is not polindrome");
+//     }
+// }
+// Console.Write("Enter five-digit number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// CheckPalindrome(num);
+
+// Zada4a 21
+
+// Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
+
+// double FindDistance(double x1, double y1, double x2, double y2, double z1, double z2)
+// {
+//     return Math.Sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1) + (z2 - z1) * (z2 - z1));
+// }
+
+// Console.Write(" Enter 1st dot coordinates x-axis: ");
+// double xA = Convert.ToDouble(Console.ReadLine());
+// Console.Write(" Enter 1st dot coordinates y-axis: ");
+// double yA = Convert.ToDouble(Console.ReadLine());
+// Console.Write(" Enter 1st dot coordinates z-axis: ");
+// double zA = Convert.ToDouble(Console.ReadLine());
+// Console.Write(" Enter 2nd dot coordinates x-axis: ");
+// double xB = Convert.ToDouble(Console.ReadLine());
+// Console.Write(" Enter 2nd dot coordinates y-axis: ");
+// double yB = Convert.ToDouble(Console.ReadLine());
+// Console.Write(" Enter 2nd dot coordinates z-axis: ");
+// double zB = Convert.ToDouble(Console.ReadLine());
+
+// double dist = FindDistance(xA, yA, xB, yB, zA, zB);
+// Console.WriteLine($" distance between entered dots is {dist} ");
+
+
+// Zada4a 23
+
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+// void Cubes(int num)
+// {
+//     for (int counter = 1; counter <= num; counter++)
+//     {
+//         Console.Write($" {counter * counter * counter} ");
+//     }
+// }
+
+// Console.Write(" Enter value ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// Cubes(num);
+
+// Zada4a 25
+
+// Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+
