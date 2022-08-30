@@ -77,8 +77,7 @@ while(current <= num)
 //         Console.WriteLine(" entered value is not three-digit number ");
 //     else
 //     {
-//         int ed = num / 10;
-//         int dec = ed % 10;
+//         int dec = num / 10 % 10;
 //         Console.WriteLine($" second digit is {dec} ");
 //     }
 // }
@@ -243,3 +242,73 @@ while(current <= num)
 
 // Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
 
+
+// void Exponentiation(double A, int B) // 3 , 5
+// {   
+//     double result = 1;
+//     for(int count = 1; count <= B; count++)
+//     {
+// result *= A;                                // Math.Pow(A, B);
+//     }
+//     Console.WriteLine($" power of {B} to base {A} is {result} ");
+// }
+// Console.Write(" Enter base: ");
+// double a = Convert.ToDouble(Console.ReadLine());
+// Console.Write(" Enter power: ");
+// int b = Convert.ToInt32(Console.ReadLine());
+
+// Exponentiation(a, b);
+
+// Zada4a
+
+// Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+
+// void NumSum(int number)
+// {
+//     int sum = 0;
+//     while (number > 0)
+//     {
+//         sum += number % 10;
+//         number /= 10;
+//     }
+//     Console.WriteLine($"sum of digits of entered number is {sum}");
+// }
+
+// Console.Write("Enter value: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// NumSum(num);
+
+
+// Zada4a 29
+
+// Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+
+
+// int[] CreateUsersArray()
+// {   
+//     Console.Write("Enter the size of the array: ");
+
+//     int count = Convert.ToInt32(Console.ReadLine());
+//     int[] newArray = new int[count];
+
+//     for (int i = 0; i < newArray.Length; i++)
+//     {   
+//         Console.Write($"\nEnter the element of array under index {i}: "); //    "\n" делает пустую строку в косоли
+//         newArray[i] = Convert.ToInt32(Console.ReadLine());
+//     }
+//     return newArray;
+// }
+
+// void ShowArray(int[] array)
+// {   
+//     Console.Write("\nYour array: ");            
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write(array[i] + " ");
+//     }
+
+//     Console.WriteLine();
+// }
+
+// ShowArray(CreateUsersArray());
